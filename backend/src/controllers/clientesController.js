@@ -1,5 +1,5 @@
 // Controlador para Clientes
-const prisma = require('../config/database');
+const prisma = require('../app/prismaClient');
 
 const getClientes = async (req, res) => {
 	try {

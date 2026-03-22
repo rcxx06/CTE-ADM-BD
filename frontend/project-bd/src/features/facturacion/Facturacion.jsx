@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Facturacion from '../../features/facturacion/Facturacion';
 
 const Facturacion = () => {
   const [facturas, setFacturas] = useState([]);

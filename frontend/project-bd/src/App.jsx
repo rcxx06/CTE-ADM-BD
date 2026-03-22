@@ -3,12 +3,12 @@ import { createBrowserRouter, RouterProvider, Outlet, Navigate } from 'react-rou
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard/Dashboard';
-import Clientes from './pages/Clientes/Clientes';
-import Tecnicos from './pages/Tecnicos/Tecnicos';
-import Equipos from './pages/Equipos/Equipos';
-import Ordenes from './pages/Ordenes/Ordenes';
-import Inventario from './pages/Inventario/Inventario';
-import Facturacion from './pages/Facturacion/Facturacion';
+import Clientes from './features/clientes/Clientes';
+import Tecnicos from './features/tecnicos/Tecnicos';
+import Equipos from './features/equipos/Equipos';
+import Ordenes from './features/ordenes/Ordenes';
+import Inventario from './features/inventario/Inventario';
+import Facturacion from './features/facturacion/Facturacion';
 import Login from './pages/Auth/Login';
 import { AuthProvider, AuthContext } from './context/AuthContext';
 import './App.css';
